@@ -36,6 +36,7 @@ kubectl scale --replicas=<number of replicas> replicaset <replicaSet name>
 #### To get replicaSet
 ```
 kubectl get replicaset
+kubectl get rs
 ```
 #### To describe replicaSet
 ```
