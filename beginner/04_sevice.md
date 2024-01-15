@@ -11,7 +11,7 @@ spec:
   - port: 80
     targetPort: 8080
     nodePort: 30001      #range: 30000 ~ 32747
-  type: NodePort         # or ClusterIP
+  type: NodePort         # or using ClusterIP for accessing only on cluster (not access from outside)
   selector:
     tier: backend
 ```
